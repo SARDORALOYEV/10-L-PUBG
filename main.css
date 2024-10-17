@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav__item:hover{
+    color: blue;
+    font-size: 25px;
+    font-weight: bolder;
+    transition: 1s ease-in-out;
+}
+.header{
+    width: 100%;
+    height: 82px;
+    background-color: black;
+
+}
+.hero__container{
+    display: flex;
+    justify-content: space-around;
+}
+.hero__list{
+    
+    justify-content: flex-end;
+    list-style: none;
+    text-decoration: none;
+    display: inline-flex;
+}
+.logo{
+    margin-top: 15px;
+}
+#English{
+    text-align: center;
+    font-family: "Inter";
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+    width: 192px;
+    height: 82px;
+    color: white;
+    padding: 10px;
+    border: none;
+    background-color: black;
+}
+.btn10{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+    height: 82px;
+    width: 192px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(241, 169, 0);
+}
+.black{
+    width: 35px;
+}
+
+.nav__list{
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+    padding: 14px;
+    gap: 101px;
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+
+}
+#Gameinfo{
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+border: none;
+font-family: "Inter";
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+}
+
+.hero{
+padding-bottom: 142px;
+padding-top: 349px;
+}
+.hero__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+.btn1{
+    padding: 20px;
+    width: 235px;
+    background-color: #F1A900;
+    color: black;
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    transition: 1s ease-in-out
+}
+.btn2{
+    padding: 20px;
+    width: 235px;
+    background-color:black;
+    color: #fff;
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    transition: 1s ease-in-out
+}
+.btn1:hover{
+    background-color: chartreuse;
+    color: black;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+}
+.btn2:hover{
+ background-color: chartreuse;
+    color: black;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+}
+.content{
+    width: 966px;
+    margin: 31px auto;
+    border-radius: 10px;
+    padding: 31px 0px;
+    background-color: #F1A90054;
+}
+.hero__title{
+    color: #fff;
+    font-family: "Inter";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.hero{
+    background-image: url("images/bgpubg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.footer__list{
+    display: flex;
+    gap: 55px;
+    justify-content: space-between;
+        list-style: none;
+}
+.footer__container {
+    display: flex;
+    gap: 55px;
+    justify-content: space-between;
+        list-style: none;
+}
+.btnhover{
+    background-color: black;
+    padding: 0px;
+    width: 75px;
+}
+.btn10:hover{
+    background-color: red;
+    color: black;
+}
